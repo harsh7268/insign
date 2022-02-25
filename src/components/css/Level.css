@@ -1,0 +1,35 @@
+.level{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2B2D30;
+    padding:3rem;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 5px rgb(155, 123, 123);
+    margin-top:5rem;
+}
+.level .level-img{
+
+    width:47%;
+}
+
+
+.level .level-content{
+    width:47%;
+    display: flex;
+    flex-flow: column;
+    gap:3rem;
+}
+
+@media(max-width:800px){
+    .level{
+        flex-flow:column;
+        padding:2rem 1rem;
+    }
+    .level .level-img{
+        width:100%;
+    }
+    .level .level-content{
+        width:100%;
+    }
+}

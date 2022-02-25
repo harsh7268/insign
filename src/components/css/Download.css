@@ -1,0 +1,42 @@
+.download-content{
+    width: 47%;
+    display: flex;
+    flex-flow: column;
+    gap:1rem;
+}
+.download-img{
+    width:48%;
+
+}
+.download-img img{
+    width:70%;
+  
+}
+.download{
+
+    margin-top: 5rem;
+    padding: 3rem 2rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2B2D30;
+   
+    box-shadow: 1px 1px 5px rgb(155, 123, 123);
+}
+
+@media(max-width:800px){
+    .download{
+        flex-flow:column;
+        gap:2rem;
+        padding:2rem 1rem;
+    }
+    .download-content{
+        width:100%;
+
+    }
+    .download-img{
+        width:100%;
+       
+    }
+}
